@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📌 Feature Section Challenge
 
-## Getting Started
+Ce projet est un défi de **devchallenges.io**, qui consiste à coder une **section de fonctionnalités** en utilisant **Next.js, Tailwind CSS et ShadCN/UI**.
 
-First, run the development server:
+---
 
-```bash
+## 🚀 Objectifs
+
+- Structurer et styliser une **section de fonctionnalités** propre et efficace
+- Assurer une mise en page **responsive**
+- Travailler avec **Next.js** et **ShadCN/UI** pour créer des composants réutilisables
+
+---
+
+## ✨ Fonctionnalités
+
+✔️ **Utilisation de Flexbox et Flexbox imbriqués** pour la mise en page  
+✔️ Chaque **carte** comprend :
+  - ✅ Un **emoji**  
+  - ✅ Un **titre**  
+  - ✅ Une **description**  
+  
+✔️ Affichage en **trois colonnes** sur grand écran  
+✔️ Passage en **colonne unique** sur mobile  
+✔️ **Design propre** avec espacement et typographie optimisés  
+
+---
+
+## 🖥️ Technologies utilisées
+
+- ⚡ **Next.js** - Framework React  
+- 🎨 **Tailwind CSS** - Pour le style et le responsive  
+- 🏗️ **ShadCN/UI** - Bibliothèque de composants UI  
+
+---
+
+## 📂 Structure du projet
+
+├── public/
+│   ├── resources/
+│   │   ├── photo_1.png
+│   │   ├── photo_2.png
+│   │   ├── photo_3.png
+├── components/
+│   ├── ui-custom/ (si applicable)
+│   ├── FeatureCard.tsx
+│   ├── FeatureSection.tsx
+├── app/
+│   ├── page.tsx
+│   ├── layout.tsx
+├── styles/
+│   ├── globals.css
+│   ├── feature-section.css (si applicable)
+├── README.md
+
+🏗️ Installation et exécution
+
+# Cloner le projet
+
+git clone https://github.com/ton-utilisateur/ton-repo.git
+cd ton-repo
+
+Installer les dépendances
+
+```npm install```
+
+# Lancer le projet
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvrir dans le navigateur
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Rendez-vous sur http://localhost:3000 pour voir le projet en action.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# 📱 Responsive Design
 
-## Learn More
+Grand écran : Les cartes sont affichées en trois colonnes
 
-To learn more about Next.js, take a look at the following resources:
+Écran mobile : Les cartes sont empilées verticalement
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Espacements et alignements optimisés pour une meilleure lisibilité
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🎨 Aperçu
 
-## Deploy on Vercel
+![Aperçu du projet](public/preview.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 📜 Licence
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Ce projet est sous licence MIT.
